@@ -46,7 +46,7 @@ someModelInstance.ip_address = "FE80:0000:0000:0000:0202:B3FF:FE1E:8329";
 
 someModelInstance.save()
 
-console.log(someModelInstance.ip_address); // 192.168.1.2
+console.log(someModelInstance.ip_address); // String
 console.log(someModelInstance._ip_address_buf); // Buffer
 
 
