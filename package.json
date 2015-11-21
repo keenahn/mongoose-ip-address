@@ -15,7 +15,7 @@
     "ip",
     "address"
   ],
-  "author": "Keenahn Jung <keenahn@invisible.email> (keenahn.com)",
+  "author": "Keenahn Jung <keenahn@invisible.email> (http://keenahn.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/keenahn/mongoose-ip-address/issues"
