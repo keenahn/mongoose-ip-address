@@ -15,13 +15,13 @@ npm install --save mongoose-ip-address
 var mongoose = require('mongoose');
 var ipAddressPlugin = require('mongoose-ip-address');
 
-var SampleSchema = new Schema({
+var SomeSchema = new Schema({
   ...
 });
-SampleSchema.plugin(ipAddressPlugin, {fields: ["ip_address", "another_ip_address"]});
-var SampleModel = db.model("SampleModel", SampleSchema);
+SomeSchema.plugin(ipAddressPlugin, {fields: ["ip_address", "another_ip_address"]});
+var SomeModel = db.model("SomeModel", SomeSchema);
 
-module.exports = SampleModel
+module.exports = SomeModel
 
 ```
 
