@@ -1,0 +1,19 @@
+node_modules
+doc
+
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+**/.DS_Store
+ignore/*
+
+*.bak
+
+bower_components
+
+# Coverage directory used by tools like istanbula
+coverage
+
+# dotenv
+.env
+

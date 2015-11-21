@@ -1,0 +1,24 @@
+{
+  "name": "mongoose-ip-address",
+  "version": "1.0.0",
+  "description": "Store ip addresses in your Mongoose models",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/keenahn/mongoose-ip-address.git"
+  },
+  "keywords": [
+    "mongoose",
+    "ip",
+    "address"
+  ],
+  "author": "Keenahn Jung <keenahn@invisible.email> (keenahn.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keenahn/mongoose-ip-address/issues"
+  },
+  "homepage": "https://github.com/keenahn/mongoose-ip-address#readme"
+}
