@@ -1,6 +1,6 @@
 {
   "name": "mongoose-ip-address",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Store ip addresses in your Mongoose models",
   "main": "index.js",
   "scripts": {

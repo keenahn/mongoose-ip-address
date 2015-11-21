@@ -1,5 +1,5 @@
 # Mongoose IP Addresses
-## [mongoose][] Plugin for storing IP addresses in your models
+## Store ip addresses in your [Mongoose][] models
 
 ## Install
 ```
@@ -85,5 +85,5 @@ This software is © 2015 Keenahn Jung, released under the MIT licence. Use it, f
 
 See the LICENSE file for details.
 
-[mongoose]: http://mongoosejs.com
+[Mongoose]: http://mongoosejs.com
 [repository]: http://github.com/keenahn/mongoose-ip-address
