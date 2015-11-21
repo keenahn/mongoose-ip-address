@@ -59,12 +59,14 @@ There are many advantages to this, for example, it makes grabbing entries by a r
 ```javascript
 var ip = require('ip');
 
-var ip_bin = ip.toBuffer('192.168.1.1');
+
+var ip_bin_range_start = ip.toBuffer('192.168.1.1')
+var ip_bin_range_end = ip.toBuffer('192.168.1.2')
 
 SomeModel.find({
   $and: [
-      { '_ip_address_buf' : {$lt: ip_bin}},
-      { '_ip_address_buf'   : {$gt: ip_bin}}
+    { '_ip_address_buf': $lte: ip_bin_range_end}
+    { '_ip_address_buf': $gte: ip_bin_range_start }
   ]},
   function(err, models) {
       if(err) return console.error(err);
