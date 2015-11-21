@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/keenahn/mongoose-ip-address/issues"
   },
-  "homepage": "https://github.com/keenahn/mongoose-ip-address#readme"
+  "homepage": "https://github.com/keenahn/mongoose-ip-address#readme",
+  "dependencies": {
+    "ip": "^1.1.0"
+  }
 }
